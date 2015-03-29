@@ -3,7 +3,7 @@ http://golang-challenge.com/go-challenge1/
 
 It was a straight-forward binary parsing challenge to decode drum machine files.  
 I read drum-tabs endlessly as a teenager, so this was a great challenge to solve.  
-So much so that I learned Go to do so.  I had never written Go and had to use Google's
+So much so that I had to learn Go to do it.  I had never written Go and had to use Google's
 introduction tutorials and install Go to solve the challenge.
 
 
