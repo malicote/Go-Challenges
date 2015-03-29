@@ -19,11 +19,11 @@ I will not post it here.
 The binary data is stored in the following format (listed as a c-style structs):
 ```
 struct splice {
-  char        splice_magic_cookie[6]  // SPLICE
-  uint64_t    length_bytes            // Length of rest of data (big endian)
-  char        hardware_rev[32]
-  float       tempo                   // Little endian
-  struct      tracks[];
+  char          splice_magic_cookie[6]  // SPLICE
+  uint64_t      length_bytes            // Length of rest of data (big endian)
+  char          hardware_rev[32]
+  float         tempo                   // Little endian
+  struct track  tracks[];
 };
 //  --- repeat for each track until read == (length_bytes - 36) --:
 struct track {
