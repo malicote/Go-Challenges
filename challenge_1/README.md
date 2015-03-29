@@ -28,7 +28,7 @@ struct splice {
 //  --- repeat for each track until read == (length_bytes - 36) --:
 struct track {
   uint8_t     track_name_length
-  char        track_name[[track_name_length]
+  char        track_name[track_name_length]
   uint8_t     steps[16]
 };
 ```
